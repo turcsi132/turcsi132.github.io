@@ -1,0 +1,16 @@
+.login-div input[type="email"]{
+    border: solid 1px blue;
+}
+
+szelektor szűrések:
+input[class*="control"]{
+    display: block;
+}
+
+input[class^="blue"]{
+    border: solid 1px blue;
+}
+
+input[class$="red"]{
+    border: solid 1px red;
+}

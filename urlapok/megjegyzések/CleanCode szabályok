@@ -1,0 +1,33 @@
+// Nevek
+let n;
+let nrOfProducts;
+let numberOfProducts; //ez a teljesen jó
+
+// Ne legyen a név félrevezető
+function adder(x, y){
+    return x * y;       //itt a helyes ha return x + y;
+}
+
+//Kerülni az O és I betűket
+let IO; let l0;
+
+// Komment: egy soros
+
+//Unnecessary: This function gives roles of user.
+function getUserRoles(user){
+    if (user.admin){
+        return user.roles;
+    }else{
+        return user.roleObject;
+    }
+}
+// Matches any alphabetical chars between m and n.
+let idPattern = /m[a-z]n/;
+
+//Kód formázása:
+//  10 sor maximum egy blokk
+//  tabulátorral beljebb a blokkon belül minden
+//  kommentek csak ha szükséges
+// olvasható, átlátható legyen
+
+
